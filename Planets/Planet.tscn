@@ -1,16 +1,14 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=2 format=3 uid="uid://cn23lu2rktgfg"]
 
-[ext_resource path="res://Planets/Planet.gd" type="Script" id=4]
+[ext_resource type="Script" path="res://Planets/Planet.gd" id="4"]
 
 [node name="Planet" type="Control"]
+layout_mode = 3
+anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = -312.0
-margin_bottom = -100.0
-rect_min_size = Vector2( 200, 200 )
+offset_right = -312.0
+offset_bottom = -100.0
 size_flags_horizontal = 0
 size_flags_vertical = 0
-script = ExtResource( 4 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
+script = ExtResource("4")

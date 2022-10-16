@@ -1,0 +1,12 @@
+res://GUI/GUI.tscn
+res://GUI/Theme.tres
+res://GUI/StarParticles.tres
+res://GUI/GUI.gd
+res://Planets/BlackHole/BlackHole.gd
+res://Planets/Planet.gd
+res://Planets/Rivers/Rivers.gd
+res://Planets/Rivers/Rivers.tscn
+res://Test.tscn
+res://test/Test.tscn
+res://test/Test.gd
+res://Planets/Planet.tscn
